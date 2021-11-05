@@ -1,15 +1,15 @@
-## Project: prueba-viva-air-plataforma-web
+## Project: prueba-Mrcury Tour-plataforma-web
 
 serenity-cucumber-gradle-screenplay
 Este es un proyecto donde se ejemplifica el uso del screenplay con cucumber y gradle.
 Utilizando el Framework de Serenity
 
-Las pruebas de este ejemplo se corren contra la página web de Viva Air.
+Las pruebas de este ejemplo se corren contra la página web de Mercury Tour.
 
 Por defecto, los tests corren en Chrome.
 
 Detalles generales de la implementación
-Los tests usan tareas (tasks), interacciones (interactions), preguntas (questions), elementos de páginas (user_interface) definidas en prueba-portal-viva-air.
+Los tests usan tareas (tasks), interacciones (interactions), preguntas (questions), elementos de páginas (user_interface) definidas en la prueba.
 
 La estructura completa del proyecto es la siguiente:
 
@@ -28,4 +28,4 @@ Requerimientos
 Para correr el proyecto se necesita Java JDK 1.8 y Gradle preferiblemente con la versión 7.0.1
 
 Para correr el proyecto
-clean test aggregate es el comando que correrá los tests y generará el reporte en la carpeta /target/site/serenity/
+./gradlew clean test aggregate es el comando que correrá los tests y generará el reporte en la carpeta /target/site/serenity/
